@@ -1,4 +1,4 @@
-local text=""
+local text=" "
 local img
 
 function beginContact(a, b, coll)
@@ -10,9 +10,9 @@ function beginContact(a, b, coll)
 	end
 end
 
-function load()
-  img = love.graphics.newImage("angry.png")
-  imgbola = love.graphics.newImage("bola.png")
+function love.load()
+  img = love.graphics.newImage("img/angry.png")
+  imgbola = love.graphics.newImage("img/bola.png")
   love.physics.setMeter(64) --the height of a meter our worlds will be 64px
   world = love.physics.newWorld(-0.1, 9.81*64, true) --create a world for the bodies to exist in with horizontal gravity of 0 and vertical gravity of 9.81
   world:setCallbacks(beginContact, endContact, preSolve, postSolve)
@@ -72,7 +72,7 @@ function load()
 end
 
 
-function update(dt)
+function love.update(dt)
   world:update(dt) --this puts the world into motion
 
   if love.keyboard.isDown("right") then 
@@ -94,7 +94,7 @@ function update(dt)
   objects.ball.body:setPosition(posicaoXBola, posicaoYBola)
 end
 
-function draw()
+function love.draw()
   love.graphics.setColor(72, 160, 14) 
   love.graphics.polygon("fill", objects.ground.body:getWorldPoints(objects.ground.shape:getPoints())) 
 
