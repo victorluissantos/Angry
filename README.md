@@ -4,10 +4,10 @@ this project was made in the year 2012 uses the programming language LUA and Lov
 it's a remake game of 'Angry Dird', game that was high in the seasson.
 <table>
 	<thead>
-		<th>
+		<tr>
 			<td>Technology</td>
 			<td>References</td>
-		</th>		
+		</tr>		
 	</thead>
 	<tbody>
 		<tr>
