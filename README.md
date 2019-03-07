@@ -12,17 +12,17 @@ it's a remake game of 'Angry Dird', game that was high in the seasson.
 	<tbody>
 		<tr>
 			<td>
-				<img src="img/lua_logo.png"/>
+				<img src="img/lua_logo.png" width="180px"/>
 			</td>
 			<td>
-				<b>Version:</b> LUA 5.3
+				<b>Version:</b> LUA 5.2
 				<br/>
 				<a href="https://www.lua.org/docs.html" target="_blank">Wiki/Documentation</a>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<img src="img/love_logo.png"/>
+				<img src="img/love_logo.png" width="180px"/>
 			</td>
 			<td>
 				<b>Version:</b> LOVE 0.9.1 (Baby Inspector)
@@ -34,12 +34,12 @@ it's a remake game of 'Angry Dird', game that was high in the seasson.
 </table>
 # Setup/Required
 Install Lua:
-Ubuntu code: <code></code>
+Ubuntu code: <code>apt-get install lua5.2</code>
 <br/>
 Install Love2D:
-Ubuntu: <code></code>
+Ubuntu: <code>apt-get install love</code>
 <br/>
 # Getting Started
 <br/>
 <hr>
-<img src="img/footer_references.jpg">
+<img src="img/footer_references.jpg" width="200px"/>
