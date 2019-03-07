@@ -35,9 +35,13 @@ it's a remake game of 'Angry Dird', game that was high in the seasson.
 # Setup/Required
 Install Lua:
 Ubuntu code: <code>apt-get install lua5.2</code>
+after that, you can verify the installation using the command:
+<code>lua -v</code>
 <br/>
 Install Love2D:
 Ubuntu: <code>apt-get install love</code>
+after that, you can verify the installation using the command:
+<code>love --version</code>
 <br/>
 # Getting Started
 <br/>
